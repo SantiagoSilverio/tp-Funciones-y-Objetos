@@ -27,7 +27,7 @@ const esPalindromo = (cadena) => {
     return cadenaLimpia === cadenaInvertida;
 };
 
-// Función para crear un libro
+
 const crearLibro = () => {
     const titulo = document.getElementById("tituloInput").value;
     const autores = document.getElementById("autoresInput").value;
